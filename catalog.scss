@@ -1,0 +1,44 @@
+.catalog__block {
+    margin-left: 80px;
+}
+
+.block__products {
+    width: 400px;
+}
+
+.block__products-link {
+    position: relative;
+    text-decoration: none;
+    color: $br;;
+    text-align: center;
+
+    span {
+        display: none;
+        position: absolute;
+        background-color: gray ;
+        
+    }
+
+    &:hover  span{
+        display: block;
+        opacity: 0.4;
+        width: 400px;
+        height: 300px;
+        font-size: 20px;
+        color: white;
+        padding-top: 150px;
+        text-transform: uppercase;
+        border-radius: 5px; 
+    }    
+  
+    p {
+        font-size: 20px;
+    }
+
+}
+
+
+.block__products-img {
+    width: 400px;
+    border-radius: 5px; 
+}

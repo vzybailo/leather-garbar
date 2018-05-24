@@ -1,0 +1,52 @@
+.order__list {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.order__item {
+    padding: 10px;
+}
+
+.point__list {
+    margin-left: 25px;
+}
+
+.point__item {
+    padding-top: 5px;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 3px;
+            height: 3px;
+            border: 50%;
+            background-color: white ;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+}
+
+.order__content {
+    margin: 15px 0 20px 80px;
+}
+
+.post-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+
+    &:hover {
+        color: $br;
+    }
+}
+
+.post-img {
+    width: 100px;
+    margin-left: 180px;
+}
+
+.post-img-nasha {
+    @extend .post-img;
+    margin-left: 165px;
+}

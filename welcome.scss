@@ -1,0 +1,247 @@
+.header {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__item {
+    padding-right: 40px;
+}
+
+.header__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu';
+
+    &:hover {
+        text-decoration: underline;
+        color: $br;
+    }
+}
+
+.header__logo-pic {
+    width: 180px;
+    margin-top: 10px;
+}
+
+.header__contacts {
+    margin-right: 30px;
+}
+
+.header__contacts-phone {
+    font-size: 20px;
+    margin-bottom: 8px; 
+}
+
+.phone__link {
+    text-decoration: none;
+    color: $br;
+
+    &:hover {
+        color: white; 
+    }
+}
+
+.header__contacts-btn {
+    width: 100%;
+    height: 25px;
+    background-color: $br;
+    border-radius: 4px ;
+    text-align: center; 
+
+    &:hover {
+
+        background-color: white;
+    }   
+}
+
+.btn__link {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: black;   
+    }   
+}
+
+.content {
+    height: 800px;
+    width: 100%;
+    color: beige;
+    background:  url('/img/setwalls.jpg') ;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.content__slogan {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.content__slogan-title {
+    font-family: 'Lifehack-Medium';
+    font-size: 60px; 
+}
+
+
+.content__catalog {
+    margin: 25px 0 25px 500px;
+    height: 30px;
+    width: 245px;
+    border-radius: 5px ;
+    background-color: rgba(131, 134, 103, 0.507);  
+
+    &:hover {
+        background-color: $br;
+    }
+}
+
+.order__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: beige;
+    vertical-align: middle;
+}
+
+
+.description-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-item {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center; 
+}
+
+.item__title {
+    font-size: 19px;
+    color: $br;
+    margin-left: 30px;
+}
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    color: beige;
+    border-top: 2px solid white;
+}
+
+.container__footer {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    margin-bottom: 10px;
+}
+
+.footer__item {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: $br;
+    }
+}
+
+.footer__order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu-Bold';
+    margin-left: 85px;
+}
+
+.footer__order-btn {
+    background-color: rgb(109, 27, 27);
+    height: 25px;
+    width: 180px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.order__link-btn {
+    animation:order__link-btn 3s infinite;
+}
+
+@keyframes order__link-btn{
+    0%{color:white (0, 0, 0, 1);}
+    50%{color:rgba(0, 0, 0, 0);}
+    100%{color:$br(0, 0, 0, 1);}
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials__item {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+.socials__link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url('/img/sprite/sprites.png') 0 0 no-repeat; 
+}
+
+.socials__link-insta {
+    background-position: 0px 0px;
+}
+
+.socials__link-vk {
+    background-position: -70px 0px;
+}
+
+.socials__link:hover {
+    background-position-y: bottom;
+}
+
+
+

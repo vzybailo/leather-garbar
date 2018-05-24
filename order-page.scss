@@ -1,0 +1,57 @@
+.content__order {
+    background-color: rgba(240, 255, 255, 0.644);
+    
+}
+
+.order__content {
+    display: flex;
+}
+
+.order__content-img {
+    width: 350px;
+    height: 600px;
+    margin-right: 40px;
+    
+}
+
+.order__content-img img{ 
+    margin: 15px 0 15px 50px ;
+}
+
+.order__content-img a  {
+    color: $br;
+}
+
+.form__item p {
+    padding: 5px 0 0 0;
+    margin: 0 0 5px 5px;
+}
+
+.form__text {
+    width: 350px;
+    height: 25px;
+    color: gray;
+    outline-color: $br;
+    padding-left: 5px;
+    font-style: italic;
+
+    &:hover {
+        color: black;
+        font-style: normal;
+    }
+}
+
+.btn {
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: darkgrey;
+    color: white;
+    border: 1px solid transparent;
+
+    &:hover {
+        background-color: $br;
+    }
+}

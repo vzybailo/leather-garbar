@@ -1,0 +1,119 @@
+.header__link-active {
+   color: $br;
+   text-decoration: underline; 
+}
+
+.content__title {
+    padding-top: 30px;
+    font-family: 'Ubuntu-Bold';
+    font-size: 25px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.content__line {
+    margin: 10px 0 20px 70px;
+    width: 850px;
+    height: 2px;
+    background-color: $br;
+}
+
+.contacts {
+    height: 100%;
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.contacts__phone {
+    text-align: left;
+    margin: 0 200px 0 90px;
+    width: 300px; 
+}
+
+
+.contacts__form-title {
+    margin-bottom: 30px;
+    font-family: 'Ubuntu-Bold';
+    font-size: 20px;
+}
+
+.contacts__messengers {
+    margin: 30px 0 0 20px;
+}
+
+.messengers-item {
+    margin-top: 10px;
+    display: flex;
+}
+
+.messengers-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.form__raw {
+    display: flex;
+}
+
+.form__cell {
+    padding: 0 10px 15px 0;
+}
+
+.form__cell-name {
+    text-align: left;
+    padding: 5px 0 5px 0 ;
+   
+}
+
+.form__input-textname {
+    width: 310px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding-left: 10px;
+    outline:none;
+    background-color: rgba(231, 225, 212, 0.767);
+}
+
+.form__input-text {
+    width: 150px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0 none;
+    padding-left: 10px;
+    outline:none;
+    background-color: rgba(231, 225, 212, 0.767);
+}
+
+.form__input-textarea {
+    width: 310px;
+    height: 100px;
+    border-radius: 4px; 
+    border: 0 none;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+    outline:none;
+    background-color: rgba(231, 225, 212, 0.767);
+}
+
+.form__submit {
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    background-color: $br;
+    color: white;
+    text-transform: uppercase;
+
+    &:hover {
+        color: black;
+        background-color: white;
+    }
+}
